@@ -1,0 +1,31 @@
+{
+  "name": "tinde",
+  "version": "1.0.0",
+  "description": "This is project folder of NamasteNode. here i build tinder for developer.",
+  "keywords": [
+    "node.js",
+    "backend",
+    "Tinde"
+  ],
+  "homepage": "https://github.com/Yug1020/Tinde#readme",
+  "bugs": {
+    "url": "https://github.com/Yug1020/Tinde/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yug1020/Tinde.git"
+  },
+  "license": "ISC",
+  "author": "Yug",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest", 
+    "start": "npm nodemon"
+
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
