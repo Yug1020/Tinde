@@ -3,6 +3,10 @@ import http from "http";
 
 const app = express()
 
+app.use("/hello/yug", (req, res) => {
+    res.send("Hello Mr.Author")
+})
+
 app.use("/hello", (req, res) => {
     res.send("hello welcome to nothing");
 });
