@@ -16,5 +16,5 @@ app.use("/", (req, res) => {
 })
 
 app.listen(3000, () => {
-    console.log("Successfully started server")
+    console.log("Successfully started server on 3000")
 })
